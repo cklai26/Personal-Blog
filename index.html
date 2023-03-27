@@ -36,8 +36,11 @@
                     </li>
                 </ul>
 
-                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" >
-                    <i class="fa-solid fa-bars"></i>
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon">
+                    
+                    <i class="fa-solid fa-bars open-menu-icon"></i>
+                    <i class="fa-solid fa-xmark close-menu-icon"></i>
+
                 </button>
             </div>
         </nav>
@@ -47,25 +50,28 @@
     <section class="featured-blog-post section">
         <div class="featured-blog-post-container container">
                 
-            <a href="post_1.html" class="headline-image">
-                <img src="img/blogpost_1_hero.JPG" alt="timber deck path in national park" class="blog-post-image">
-                
-                <div class="blog-post-data-container">
 
-                    <h1 class="headline">
-                        A <span>new</span> journey
-                    </h1>
-
-                    <p class="headline-description">My personal account of embarking on a new adventure, overcoming challenges, and finding fulfillment along the way.</p>
-
-                    <div class="blog-post-details">
-                        <span>27 Mar 2023</span>
-                        <span class="article-data-spacer"></span>
-                        <span>10 Min read</span>
-                    </div>
+            <div class="headline-banner">
+                <a href="post_1.html" class="headline-image">
+                    <img src="img/blogpost_1_hero.JPG" alt="timber deck path in national park" class="blog-post-image">
                     
-                </div>
-            </a>    
+                    <div class="blog-post-data-container">
+
+                        <h1 class="headline">
+                            A <span>new</span> journey
+                        </h1>
+
+                        <p class="headline-description">My personal account of embarking on a new adventure, overcoming challenges, and finding fulfillment along the way.</p>
+
+                        <div class="article-data">
+                            <span>27 Mar 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>10 Min read</span>
+                        </div>
+                        
+                    </div>
+                </a>
+            </div>    
 
         </div>
     </section>
@@ -80,13 +86,13 @@
 
                 <a href="#" class="article grid">
 
-                    <div class="older-posts-article-image-wrapper">
+                    <div class="blog-card-article-image-wrapper">
                         <img src="img/blog_card/post_1.jpg" alt="" class="article-image">
                     </div>
 
                     <div class="article-data-container">
 
-                        <div class="article-details">
+                        <div class="article-data">
                             <span>6 Mar 2023</span>
                             <span class="article-data-spacer"></span>
                             <span>7 Min read</span>
@@ -99,13 +105,13 @@
 
                 <a href="#" class="article grid">
 
-                    <div class="older-posts-article-image-wrapper">
-                        <img src="img/blog_card/post_1.jpg" alt="" class="article-image">
+                    <div class="blog-card-article-image-wrapper">
+                        <img src="img/blog_card/post_2.jpg" alt="" class="article-image">
                     </div>
 
                     <div class="article-data-container">
 
-                        <div class="article-details">
+                        <div class="article-data">
                             <span>28 Feb 2023</span>
                             <span class="article-data-spacer"></span>
                             <span>7 Min read</span>
@@ -118,13 +124,13 @@
 
                 <a href="#" class="article grid">
 
-                    <div class="older-posts-article-image-wrapper">
-                        <img src="img/blog_card/post_1.jpg" alt="" class="article-image">
+                    <div class="blog-card-article-image-wrapper">
+                        <img src="img/blog_card/post_3.jpg" alt="" class="article-image">
                     </div>
 
                     <div class="article-data-container">
 
-                        <div class="article-details">
+                        <div class="article-data">
                             <span>22 Feb 2023</span>
                             <span class="article-data-spacer"></span>
                             <span>7 Min read</span>
@@ -142,125 +148,129 @@
     <!-- sidebar -->
     <section class="section">
 
-        <div class="sidebar grid">
+        <div class="container">
 
             <h2 class="title sidebar-title">
                 Popular posts   
             </h2>
 
-            <a href="#" class="sidebar-article-container">
-                <div class="sidebar-article-img-wrapper">
-                    <span class="sidebar-article-number place-items-center">01</span>
-                    <img src="img/popular_posts/post_1.jpg" alt="" class="article-image">
-                </div>
+            <div class="sidebar-wrapper grid">
 
-                <div class="sidebar-data">
-
-                    <div class="article-data">
-                        <span>26 Dec 2022</span>
-                        <span class="article-data-spacer"></span>
-                        <span>3 Min read</span>
+                <a href="#" class="sidebar-article-container">
+                    <div class="sidebar-article-img-wrapper">
+                        <span class="sidebar-article-number place-items-center">01</span>
+                        <img src="img/popular_posts/post_1.jpg" alt="" class="article-image">
                     </div>
 
-                    <h3 class="title article-title">ChatGPT replaced 60% of jobs</h3>
+                    <div class="sidebar-data">
 
-                </div>
-            </a>
+                        <div class="article-data">
+                            <span>26 Dec 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
 
-            <a href="#" class="sidebar-article-container">
-                <div class="sidebar-article-img-wrapper">
-                    <span class="sidebar-article-number place-items-center">01</span>
-                    <img src="img/popular_posts/post_1.jpg" alt="" class="article-image">
-                </div>
+                        <h3 class="title article-title">ChatGPT replaced 60% of jobs</h3>
 
-                <div class="sidebar-data">
+                    </div>
+                </a>
 
-                    <div class="article-data">
-                        <span>03 Feb 2023</span>
-                        <span class="article-data-spacer"></span>
-                        <span>3 Min read</span>
+                <a href="#" class="sidebar-article-container">
+                    <div class="sidebar-article-img-wrapper">
+                        <span class="sidebar-article-number place-items-center">02</span>
+                        <img src="img/popular_posts/post_1.jpg" alt="" class="article-image">
                     </div>
 
-                    <h3 class="title article-title">Unlocking your creative potential</h3>
+                    <div class="sidebar-data">
 
-                </div>
-            </a>
+                        <div class="article-data">
+                            <span>03 Feb 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
 
-            <a href="#" class="sidebar-article-container">
-                <div class="sidebar-article-img-wrapper">
-                    <span class="sidebar-article-number place-items-center">01</span>
-                    <img src="img/popular_posts/post_1.jpg" alt="" class="article-image">
-                </div>
+                        <h3 class="title article-title">Unlocking your creative potential</h3>
 
-                <div class="sidebar-data">
+                    </div>
+                </a>
 
-                    <div class="article-data">
-                        <span>02 Dec 2022</span>
-                        <span class="article-data-spacer"></span>
-                        <span>3 Min read</span>
+                <a href="#" class="sidebar-article-container">
+                    <div class="sidebar-article-img-wrapper">
+                        <span class="sidebar-article-number place-items-center">03</span>
+                        <img src="img/popular_posts/post_1.jpg" alt="" class="article-image">
                     </div>
 
-                    <h3 class="title article-title">Living life with intention</h3>
+                    <div class="sidebar-data">
 
-                </div>
-            </a>
+                        <div class="article-data">
+                            <span>02 Dec 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
 
-            <a href="#" class="sidebar-article-container">
-                <div class="sidebar-article-img-wrapper">
-                    <span class="sidebar-article-number place-items-center">01</span>
-                    <img src="img/popular_posts/post_1.jpg" alt="" class="article-image">
-                </div>
+                        <h3 class="title article-title">Living life with intention</h3>
 
-                <div class="sidebar-data">
+                    </div>
+                </a>
 
-                    <div class="article-data">
-                        <span>03 Feb 2023</span>
-                        <span class="article-data-spacer"></span>
-                        <span>3 Min read</span>
+                <a href="#" class="sidebar-article-container">
+                    <div class="sidebar-article-img-wrapper">
+                        <span class="sidebar-article-number place-items-center">04</span>
+                        <img src="img/popular_posts/post_1.jpg" alt="" class="article-image">
                     </div>
 
-                    <h3 class="title article-title">Gratitude: a path to happiness</h3>
+                    <div class="sidebar-data">
 
-                </div>
-            </a>
+                        <div class="article-data">
+                            <span>01 Jan 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>9 Min read</span>
+                        </div>
 
-            <a href="#" class="sidebar-article-container">
-                <div class="sidebar-article-img-wrapper">
-                    <span class="sidebar-article-number place-items-center">01</span>
-                    <img src="img/popular_posts/post_1.jpg" alt="" class="article-image">
-                </div>
+                        <h3 class="title article-title">Gratitude: a path to happiness</h3>
 
-                <div class="sidebar-data">
+                    </div>
+                </a>
 
-                    <div class="article-data">
-                        <span>03 Feb 2023</span>
-                        <span class="article-data-spacer"></span>
-                        <span>3 Min read</span>
+                <a href="#" class="sidebar-article-container">
+                    <div class="sidebar-article-img-wrapper">
+                        <span class="sidebar-article-number place-items-center">05</span>
+                        <img src="img/popular_posts/post_1.jpg" alt="" class="article-image">
                     </div>
 
-                    <h3 class="title article-title">The mind-body connection:</h3>
+                    <div class="sidebar-data">
 
-                </div>
-            </a>
+                        <div class="article-data">
+                            <span>15 Nov 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>12 Min read</span>
+                        </div>
 
-            <a href="#" class="sidebar-article-container">
-                <div class="sidebar-article-img-wrapper">
-                    <span class="sidebar-article-number place-items-center">01</span>
-                    <img src="img/popular_posts/post_1.jpg" alt="" class="article-image">
-                </div>
+                        <h3 class="title article-title">The mind-body connection:</h3>
 
-                <div class="sidebar-data">
+                    </div>
+                </a>
 
-                    <div class="article-data">
-                        <span>03 Feb 2023</span>
-                        <span class="article-data-spacer"></span>
-                        <span>3 Min read</span>
+                <a href="#" class="sidebar-article-container">
+                    <div class="sidebar-article-img-wrapper">
+                        <span class="sidebar-article-number place-items-center">06</span>
+                        <img src="img/popular_posts/post_1.jpg" alt="" class="article-image">
                     </div>
 
-                    <h3 class="title article-title">Small actions matter</h3>
+                    <div class="sidebar-data">
 
-                </div>
-            </a>
+                        <div class="article-data">
+                            <span>19 Oct 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Small actions matter</h3>
+
+                    </div>
+                </a>
+
+            </div>
 
         </div>
     </section>
@@ -271,7 +281,7 @@
         <div class="footer-container container grid">
             <div class="author-data">
                 <a href="index.html">
-                    <img src="img/logo_footer.svg" alt="" class="logo">
+                    <img src="img/logo.svg" alt="" class="logo-footer">
                 </a>
                 <p class="author-description">
                     Ck is an architect with a passion for creating functional and visually appealing spaces. Now, he's transitioning to UI/UX design, combining his eye for aesthetics with a user-centered approach to create intuitive and engaging digital experiences.
